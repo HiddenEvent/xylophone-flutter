@@ -19,7 +19,7 @@ class _XylophoneAppState extends State<XylophoneApp> {
     assetAudioPlayer.open('assets/note$audioNum.wav');
     assetAudioPlayer.play();
   }
-
+  //함수부분
   Widget buildKey(int audioNum,Color color) {
     Widget colorBar =  Expanded(
       child: FlatButton(
